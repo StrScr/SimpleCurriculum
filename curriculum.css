@@ -1,8 +1,8 @@
 body{
     /*height: 5000px;*/
     margin-top: 125px;
-    background-color: rgb(54,95,127);
-    color: rgb(220,230,255);
+    background-color: rgb(21, 104, 14);
+    color: rgb(223, 255, 225);
     font-family: Roboto;
     padding-bottom: 30px;
 }
@@ -10,7 +10,7 @@ body{
 #navbar{
     display: flex;
     align-items: flex-start;
-    background-color: rgba(93,112,127,0.9);
+    background-color: rgba(93, 127, 93, 0.9);
     width: 100%;
     height: 100px;
     top: 0px;
@@ -22,16 +22,16 @@ body{
     padding-top: 15px;
     height: 85px;
     width: 60px;
-    background-color: rgba(93,112,127,0);
+    background-color: rgba(94, 127, 93, 0);
     border: 0px none rgba(0,0,0,0);
     text-align: center;
     font-size: 60px;
     text-decoration: none;
-    color: rgb(220,230,255);
+    color: white;
 }
 
 .navbutton:hover{
-    background-color: rgba(60,70,80,0.8);
+    background-color: rgba(62, 80, 60, 0.8);
 }
 
 h1{
@@ -39,7 +39,7 @@ h1{
     text-align: center;
     width: 100%;
     font-size: 50px;
-    color: rgb(220,230,255);
+    color: white;
 }
 
 h2{
@@ -49,28 +49,28 @@ h2{
 }
 
 img{
-    background-color: rgba(93,112,127,0.5);
+    background-color: rgba(100, 127, 93, 0.5);
     color: white;
-    border: 5px solid rgb(93,149,204);
+    border: 5px solid rgb(93, 204, 99);
     border-radius: 1000px;
 }
 
 img:hover{
     width: 125;
     height: 125;
-    background-color: rgb(73,125,150);
+    background-color: rgb(73, 150, 86);
 }
 
 #back{
     height: 100 px;
     width: 100px;
-    background-color: rgba(93,112,127,0);
+    background-color: rgba(93, 127, 96, 0);
     border: 0px none rgba(0,0,0,0);
     border-radius: 0px;
 }
 
 #back:hover{
-    background-color: rgba(60,70,80,0.8);
+    background-color: rgba(60, 80, 60, 0.8);
 }
 
 #portrait{
@@ -85,10 +85,10 @@ img:hover{
 
 fieldset{
     margin: 20px;
-    background-color: rgb(60,100,140);
+    background-color: rgb(60, 140, 71);
     color: rgb(220,220,250);
     font-size: 20px;
-    border: 5px solid rgb(150,150,255);
+    border: 5px solid rgb(150, 255, 167);
     border-radius: 10px;
 }
 
@@ -122,20 +122,20 @@ th, td {
 }
 
 tr:nth-child(even){
-    background-color: rgb(180,180,255);
+    background-color: rgb(180, 255, 186);
 }
 
 tr:nth-child(odd){
-    background-color: rgb(200,200,255);
+    background-color: rgb(200, 255, 205);
 }
 
 th {
-    background-color: rgb(45,85,100);
-    color: rgb(220,230,255);
+    background-color: rgb(45, 100, 48);
+    color: white;
 }
 
 tr:hover{
-    background-color: rgb(160,160,240);
+    background-color: rgb(160, 240, 171);
 }
 
 td:nth-child(1){
@@ -143,5 +143,5 @@ td:nth-child(1){
 }
 
 td{
-    border-left: 1px solid rgb(0,0,50);
+    border-left: 1px solid rgb(0, 50, 4);
 }
