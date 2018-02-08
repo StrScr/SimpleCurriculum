@@ -1,0 +1,147 @@
+body{
+    /*height: 5000px;*/
+    margin-top: 125px;
+    background-color: rgb(54,95,127);
+    color: rgb(220,230,255);
+    font-family: Roboto;
+    padding-bottom: 30px;
+}
+
+#navbar{
+    display: flex;
+    align-items: flex-start;
+    background-color: rgba(93,112,127,0.9);
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+}
+
+.navbutton{
+    padding-top: 15px;
+    height: 85px;
+    width: 60px;
+    background-color: rgba(93,112,127,0);
+    border: 0px none rgba(0,0,0,0);
+    text-align: center;
+    font-size: 60px;
+    text-decoration: none;
+    color: rgb(220,230,255);
+}
+
+.navbutton:hover{
+    background-color: rgba(60,70,80,0.8);
+}
+
+h1{
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    color: rgb(220,230,255);
+}
+
+h2{
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+
+img{
+    background-color: rgba(93,112,127,0.5);
+    color: white;
+    border: 5px solid rgb(93,149,204);
+    border-radius: 1000px;
+}
+
+img:hover{
+    width: 125;
+    height: 125;
+    background-color: rgb(73,125,150);
+}
+
+#back{
+    height: 100 px;
+    width: 100px;
+    background-color: rgba(93,112,127,0);
+    border: 0px none rgba(0,0,0,0);
+    border-radius: 0px;
+}
+
+#back:hover{
+    background-color: rgba(60,70,80,0.8);
+}
+
+#portrait{
+    float: left;
+}
+
+.textbox{
+    text-align: center;
+    align-self: center;
+    width: 100%;
+}
+
+fieldset{
+    margin: 20px;
+    background-color: rgb(60,100,140);
+    color: rgb(220,220,250);
+    font-size: 20px;
+    border: 5px solid rgb(150,150,255);
+    border-radius: 10px;
+}
+
+.sbscontainer{
+    display: flex;
+    align-items: flex-start;
+}
+
+.sidebyside{
+    align-self: center;
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+}
+
+.boxtitle{
+    font-size: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(180,180,255);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(200,200,255);
+}
+
+th {
+    background-color: rgb(45,85,100);
+    color: rgb(220,230,255);
+}
+
+tr:hover{
+    background-color: rgb(160,160,240);
+}
+
+td:nth-child(1){
+    border-left: 0px none black;
+}
+
+td{
+    border-left: 1px solid rgb(0,0,50);
+}
